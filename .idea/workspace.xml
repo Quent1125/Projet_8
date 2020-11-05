@@ -19,20 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Projet_8.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/model.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/model.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/store.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/view.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/view.js" afterDir="false" />
-    </list>
+    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +64,7 @@
       <option name="presentableId" value="Default" />
       <updated>1604591098192</updated>
       <workItem from="1604591100227" duration="1553000" />
+      <workItem from="1604593030538" duration="20000" />
     </task>
     <servers />
   </component>
@@ -93,6 +81,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604591548708">
