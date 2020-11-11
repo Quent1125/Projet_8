@@ -28,7 +28,7 @@
 	}
 
 	View.prototype._removeItem = function (id) {
-		let elem = qs('[data-id="' + id + '"]');
+		var elem = qs('[data-id="' + id + '"]');
 
 		if (elem) {
 			this.$todoList.removeChild(elem);
@@ -46,7 +46,7 @@
 	};
 
 	View.prototype._elementComplete = function (id, completed) {
-		let listItem = qs('[data-id="' + id + '"]');
+		var listItem = qs('[data-id="' + id + '"]');
 
 		if (!listItem) {
 			return;
@@ -59,7 +59,7 @@
 	};
 
 	View.prototype._editItem = function (id, title) {
-		let listItem = qs('[data-id="' + id + '"]');
+		var listItem = qs('[data-id="' + id + '"]');
 
 		if (!listItem) {
 			return;
@@ -67,7 +67,7 @@
 
 		listItem.className = listItem.className + ' editing';
 
-		let input = document.createElement('input');
+		var input = document.createElement('input');
 		input.className = 'edit';
 
 		listItem.appendChild(input);
@@ -76,13 +76,13 @@
 	};
 
 	View.prototype._editItemDone = function (id, title) {
-		let listItem = qs('[data-id="' + id + '"]');
+		var listItem = qs('[data-id="' + id + '"]');
 
 		if (!listItem) {
 			return;
 		}
 
-		let input = qs('input.edit', listItem);
+		var input = qs('input.edit', listItem);
 		listItem.removeChild(input);
 
 		listItem.className = listItem.className.replace('editing', '');
@@ -93,8 +93,8 @@
 	};
 
 	View.prototype.render = function (viewCmd, parameter) {
-		let self = this;
-		let viewCommands = {
+		var self = this;
+		var viewCommands = {
 			showEntries: function () {
 				self.$todoList.innerHTML = self.template.show(parameter);
 			},
@@ -134,12 +134,12 @@
 	};
 
 	View.prototype._itemId = function (element) {
-		let li = $parent(element, 'li');
+		var li = $parent(element, 'li');
 		return parseInt(li.dataset.id, 10);
 	};
 
 	View.prototype._bindItemEditDone = function (handler) {
-		let self = this;
+		var self = this;
 		$delegate(self.$todoList, 'li .edit', 'blur', function () {
 			if (!this.dataset.iscanceled) {
 				handler({
@@ -150,7 +150,7 @@
 		});
 
 		$delegate(self.$todoList, 'li .edit', 'keypress', function (event) {
-			if (event.code === self.ENTER_KEY) {
+			if (event.keyCode === self.ENTER_KEY) {
 				// Remove the cursor from the input when you hit enter just like if it
 				// were a real form
 				this.blur();
@@ -159,9 +159,9 @@
 	};
 
 	View.prototype._bindItemEditCancel = function (handler) {
-		let self = this;
+		var self = this;
 		$delegate(self.$todoList, 'li .edit', 'keyup', function (event) {
-			if (event.code === self.ESCAPE_KEY) {
+			if (event.keyCode === self.ESCAPE_KEY) {
 				this.dataset.iscanceled = true;
 				this.blur();
 
@@ -171,7 +171,7 @@
 	};
 
 	View.prototype.bind = function (event, handler) {
-		let self = this;
+		var self = this;
 		if (event === 'newTodo') {
 			$on(self.$newTodo, 'change', function () {
 				handler(self.$newTodo.value);

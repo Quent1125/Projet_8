@@ -9,12 +9,12 @@
 	 * @param {object} view The view instance
 	 */
 	function Controller(model, view) {
-		let self = this;
+		var self = this;
 		self.model = model;
 		self.view = view;
 
 		self.view.bind('newTodo', function (title) {
-			self.adddItem(title);    //manque un d
+			self.addItem(title);
 		});
 
 		self.view.bind('itemEdit', function (item) {
@@ -49,11 +49,11 @@
 	/**
 	 * Loads and initialises the view
 	 *
-	 * @param locationHash
+	 * @param {string} '' | 'active' | 'completed'
 	 */
 	Controller.prototype.setView = function (locationHash) {
-		let route = locationHash.split('/')[1];
-		let page = route || '';
+		var route = locationHash.split('/')[1];
+		var page = route || '';
 		this._updateFilterState(page);
 	};
 
@@ -62,7 +62,7 @@
 	 * todo-list
 	 */
 	Controller.prototype.showAll = function () {
-		let self = this;
+		var self = this;
 		self.model.read(function (data) {
 			self.view.render('showEntries', data);
 		});
@@ -72,7 +72,7 @@
 	 * Renders all active tasks
 	 */
 	Controller.prototype.showActive = function () {
-		let self = this;
+		var self = this;
 		self.model.read({ completed: false }, function (data) {
 			self.view.render('showEntries', data);
 		});
@@ -82,7 +82,7 @@
 	 * Renders all completed tasks
 	 */
 	Controller.prototype.showCompleted = function () {
-		let self = this;
+		var self = this;
 		self.model.read({ completed: true }, function (data) {
 			self.view.render('showEntries', data);
 		});
@@ -93,7 +93,7 @@
 	 * object and it'll handle the DOM insertion and saving of the new item.
 	 */
 	Controller.prototype.adddItem = function (title) {
-		let self = this;
+		var self = this;
 
 		if (title.trim() === '') {
 			return;
@@ -109,7 +109,7 @@
 	 * Triggers the item editing mode.
 	 */
 	Controller.prototype.editItem = function (id) {
-		let self = this;
+		var self = this;
 		self.model.read(id, function (data) {
 			self.view.render('editItem', {id: id, title: data[0].title});
 		});
@@ -119,7 +119,7 @@
 	 * Finishes the item editing mode successfully.
 	 */
 	Controller.prototype.editItemSave = function (id, title) {
-		let self = this;
+		var self = this;
 
 		while (title[0] === " ") {
 			title = title.slice(1);
@@ -142,7 +142,7 @@
 	 * Cancels the item editing mode.
 	 */
 	Controller.prototype.editItemCancel = function (id) {
-		let self = this;
+		var self = this;
 		self.model.read(id, function (data) {
 			self.view.render('editItemDone', {id: id, title: data[0].title});
 		});
@@ -156,13 +156,13 @@
 	 * storage
 	 */
 	Controller.prototype.removeItem = function (id) {
-		let self = this;
-		let items;
+		var self = this;
+		var items;
 		self.model.read(function(data) {
 			items = data;
 		});
 
-		items.forEach(function(item) {      //pb initialisation items ?
+		items.forEach(function(item) {
 			if (item.id === id) {
 				console.log("Element with ID: " + id + " has been removed.");
 			}
@@ -179,7 +179,7 @@
 	 * Will remove all completed items from the DOM and storage.
 	 */
 	Controller.prototype.removeCompletedItems = function () {
-		let self = this;
+		var self = this;
 		self.model.read({ completed: true }, function (data) {
 			data.forEach(function (item) {
 				self.removeItem(item.id);
@@ -194,12 +194,12 @@
 	 * in storage based on the checkbox's state.
 	 *
 	 * @param {number} id The ID of the element to complete or uncomplete
-	 * @param {object} completed The checkbox to check the state of complete
+	 * @param {object} checkbox The checkbox to check the state of complete
 	 *                          or not
 	 * @param {boolean|undefined} silent Prevent re-filtering the todo items
 	 */
 	Controller.prototype.toggleComplete = function (id, completed, silent) {
-		let self = this;
+		var self = this;
 		self.model.update(id, { completed: completed }, function () {
 			self.view.render('elementComplete', {
 				id: id,
@@ -217,7 +217,7 @@
 	 * Just pass in the event object.
 	 */
 	Controller.prototype.toggleAll = function (completed) {
-		let self = this;
+		var self = this;
 		self.model.read({ completed: !completed }, function (data) {
 			data.forEach(function (item) {
 				self.toggleComplete(item.id, completed, true);
@@ -232,7 +232,7 @@
 	 * number of todos.
 	 */
 	Controller.prototype._updateCount = function () {
-		let self = this;
+		var self = this;
 		self.model.getCount(function (todos) {
 			self.view.render('updateElementCount', todos.active);
 			self.view.render('clearCompletedButton', {
@@ -250,7 +250,7 @@
 	 * @param {boolean|undefined} force  forces a re-painting of todo items.
 	 */
 	Controller.prototype._filter = function (force) {
-		let activeRoute = this._activeRoute.charAt(0).toUpperCase() + this._activeRoute.substr(1);
+		var activeRoute = this._activeRoute.charAt(0).toUpperCase() + this._activeRoute.substr(1);
 
 		// Update the elements on the page, which change with each completed todo
 		this._updateCount();

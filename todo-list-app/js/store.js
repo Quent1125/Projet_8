@@ -16,7 +16,7 @@
 		this._dbName = name;
 
 		if (!localStorage[name]) {
-			let data = {
+			var data = {
 				todos: []
 			};
 
@@ -44,10 +44,10 @@
 			return;
 		}
 
-		let todos = JSON.parse(localStorage[this._dbName]).todos;
+		var todos = JSON.parse(localStorage[this._dbName]).todos;
 
 		callback.call(this, todos.filter(function (todo) {
-			for (let q in query) {
+			for (var q in query) {
 				if (query[q] !== todo[q]) {
 					return false;
 				}
@@ -75,25 +75,25 @@
 	 * @param {number} id An optional param to enter an ID of an item to update
 	 */
 	Store.prototype.save = function (updateData, callback, id) {
-		let data = JSON.parse(localStorage[this._dbName]);
-		let todos = data.todos;
+		var data = JSON.parse(localStorage[this._dbName]);
+		var todos = data.todos;
 
 		callback = callback || function () {};
 
 		// Generate an ID
-	    let newId = "";
-	    let charset = "0123456789";
+	    var newId = ""; 
+	    var charset = "0123456789";
 
-        for (let i = 0; i < 6; i++) {
+        for (var i = 0; i < 6; i++) {
      		newId += charset.charAt(Math.floor(Math.random() * charset.length));
 		}
 
 		// If an ID was actually given, find the item and update each property
 		if (id) {
-			for (let j = 0; j < todos.length; j++) {
-				if (todos[j].id === id) {
-					for (let key in updateData) {
-						todos[j][key] = updateData[key];
+			for (var i = 0; i < todos.length; i++) {
+				if (todos[i].id === id) {
+					for (var key in updateData) {
+						todos[i][key] = updateData[key];
 					}
 					break;
 				}
@@ -120,19 +120,19 @@
 	 * @param {function} callback The callback to fire after saving
 	 */
 	Store.prototype.remove = function (id, callback) {
-		let data = JSON.parse(localStorage[this._dbName]);
-		let todos = data.todos;
-		let todoId;
+		var data = JSON.parse(localStorage[this._dbName]);
+		var todos = data.todos;
+		var todoId;
 		
-		for (let i = 0; i < todos.length; i++) {
-			if (todos[i].id === id) {
+		for (var i = 0; i < todos.length; i++) {
+			if (todos[i].id == id) {
 				todoId = todos[i].id;
 			}
 		}
 
-		for (let k = 0; k < todos.length; k++) {
-			if (todos[k].id === todoId) {
-				todos.splice(k, 1);
+		for (var i = 0; i < todos.length; i++) {
+			if (todos[i].id == todoId) {
+				todos.splice(i, 1);
 			}
 		}
 
@@ -146,7 +146,7 @@
 	 * @param {function} callback The callback to fire after dropping the data
 	 */
 	Store.prototype.drop = function (callback) {
-		let data = {todos: []};
+		var data = {todos: []};
 		localStorage[this._dbName] = JSON.stringify(data);
 		callback.call(this, data.todos);
 	};

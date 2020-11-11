@@ -21,7 +21,7 @@
 		title = title || '';
 		callback = callback || function () {};
 
-		let newItem = {
+		var newItem = {
 			title: title.trim(),
 			completed: false
 		};
@@ -45,7 +45,7 @@
 	 * model.read({ foo: 'bar', hello: 'world' });
 	 */
 	Model.prototype.read = function (query, callback) {
-		let queryType = typeof query;
+		var queryType = typeof query;
 		callback = callback || function () {};
 
 		if (queryType === 'function') {
@@ -94,7 +94,7 @@
 	 * Returns a count of all todos
 	 */
 	Model.prototype.getCount = function (callback) {
-		let todos = {
+		var todos = {
 			active: 0,
 			completed: 0,
 			total: 0
