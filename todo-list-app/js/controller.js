@@ -215,7 +215,7 @@
 	 * Will toggle ALL checkboxes' on/off state and completeness of models.
 	 * Just pass in the event object.
 	 */
-	Controller.prototype.toggleAll = function (completed) {
+	Controller.prototype.toggleAll = function (completed) { //modif de la fonction
 		let self = this;
 		self.model.read({ completed: !completed }, function (data) {
 			data.forEach(function (item) {

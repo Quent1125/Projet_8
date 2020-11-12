@@ -21,7 +21,10 @@
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/js/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/helpers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +74,7 @@
       <workItem from="1605104625770" duration="686000" />
       <workItem from="1605105349777" duration="1170000" />
       <workItem from="1605170982543" duration="45000" />
-      <workItem from="1605199191452" duration="1142000" />
+      <workItem from="1605199191452" duration="1640000" />
     </task>
     <servers />
   </component>
@@ -91,6 +94,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="586" y="203" key="#Inspections" timestamp="1605200754390">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="586" y="203" key="#Inspections/0.0.1920.1050@0.0.1920.1050" timestamp="1605200754390" />
     <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604591548708">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
