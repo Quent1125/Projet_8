@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +42,6 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -71,7 +71,7 @@
       <workItem from="1605104625770" duration="686000" />
       <workItem from="1605105349777" duration="1170000" />
       <workItem from="1605170982543" duration="45000" />
-      <workItem from="1605199191452" duration="212000" />
+      <workItem from="1605199191452" duration="1142000" />
     </task>
     <servers />
   </component>
@@ -155,5 +155,9 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="461" y="169" key="SettingsEditor/0.0.1920.1050@0.0.1920.1050" timestamp="1605199405904" />
+    <state x="803" y="297" key="refactoring.ChangeSignatureDialog" timestamp="1605200261703">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="803" y="297" key="refactoring.ChangeSignatureDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1605200261703" />
   </component>
 </project>
