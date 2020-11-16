@@ -20,11 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/helpers.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/helpers.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/store.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,8 @@
       <workItem from="1605104625770" duration="686000" />
       <workItem from="1605105349777" duration="1170000" />
       <workItem from="1605170982543" duration="45000" />
-      <workItem from="1605199191452" duration="1640000" />
+      <workItem from="1605199191452" duration="4044000" />
+      <workItem from="1605246200065" duration="583000" />
     </task>
     <servers />
   </component>
