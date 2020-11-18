@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
-    </list>
+    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -76,7 +74,7 @@
       <workItem from="1605546378192" duration="304000" />
       <workItem from="1605599833235" duration="960000" />
       <workItem from="1605601246268" duration="62000" />
-      <workItem from="1605638005391" duration="2193000" />
+      <workItem from="1605638005391" duration="2495000" />
     </task>
     <servers />
   </component>
