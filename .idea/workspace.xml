@@ -21,6 +21,31 @@
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/._todo-list-app" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._license.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._node_modules" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/._test" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._app.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._controller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._helpers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._model.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._template.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/js/._view.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/node_modules/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/node_modules/._todomvc-app-css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/node_modules/._todomvc-common" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/node_modules/todomvc-app-css/._index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/node_modules/todomvc-common/._base.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/node_modules/todomvc-common/._base.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/test/._ControllerSpec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/__MACOSX/todo-list-app/test/._SpecRunner.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +101,7 @@
       <workItem from="1605546378192" duration="304000" />
       <workItem from="1605599833235" duration="960000" />
       <workItem from="1605601246268" duration="62000" />
-      <workItem from="1605638005391" duration="765000" />
+      <workItem from="1605638005391" duration="1865000" />
     </task>
     <servers />
   </component>
