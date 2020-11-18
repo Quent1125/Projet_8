@@ -164,8 +164,7 @@
 				}
 			});
 		});
-
-
+		
 
 		self.model.remove(id, function () {
 			self.view.render('removeItem', id);
