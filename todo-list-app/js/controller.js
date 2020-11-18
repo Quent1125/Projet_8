@@ -155,7 +155,7 @@
 	 * @param {number} id The ID of the item to remove from the DOM and
 	 * storage
 	 */
-	Controller.prototype.removeItem = function (id) { //mettre version avant et tester si le site marche ou pas
+	Controller.prototype.removeItem = function (id) {
 		let self = this;
 		self.model.read(function(data) {
 			data.forEach(function(item) {
@@ -164,7 +164,8 @@
 				}
 			});
 		});
-		
+
+
 
 		self.model.remove(id, function () {
 			self.view.render('removeItem', id);
