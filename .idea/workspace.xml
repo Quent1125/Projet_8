@@ -19,10 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/store.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/store.js" afterDir="false" />
-    </list>
+    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,7 +77,7 @@
       <workItem from="1605638005391" duration="2495000" />
       <workItem from="1605703813720" duration="3401000" />
       <workItem from="1605784356788" duration="2453000" />
-      <workItem from="1605809037751" duration="697000" />
+      <workItem from="1605809037751" duration="1025000" />
     </task>
     <servers />
   </component>
