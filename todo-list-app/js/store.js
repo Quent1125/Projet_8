@@ -81,12 +81,10 @@
 		callback = callback || function () {};
 
 		// Generate an ID
-	    let newId = "";
-	    let charset = "0123456789";
 
-        for (let i = 0; i < 6; i++) {
-     		newId += charset.charAt(Math.floor(Math.random() * charset.length));
-		}
+		const event = new Date();
+		let newId = (event.getDay()).toString()+(event.getDate()).toString()+(event.getMonth()).toString()+(event.getFullYear()).toString()+(event.getHours()).toString()+(event.getMinutes()).toString()+(event.getSeconds()).toString()+(event.getMilliseconds()).toString()
+
 
 		// If an ID was actually given, find the item and update each property
 		if (id) {
