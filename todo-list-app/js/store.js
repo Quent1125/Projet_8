@@ -83,8 +83,7 @@
 		// Generate an ID
 
 		const event = new Date();
-		let newId = (event.getDay()).toString()+(event.getDate()).toString()+(event.getMonth()).toString()+(event.getFullYear()).toString()+(event.getHours()).toString()+(event.getMinutes()).toString()+(event.getSeconds()).toString()+(event.getMilliseconds()).toString()
-
+		let newId = Date.now()
 
 		// If an ID was actually given, find the item and update each property
 		if (id) {
@@ -122,13 +121,10 @@
 		let todos = data.todos;
 		let todoId;
 		
-		for (let i = 0; i < todos.length; i++) {
+		for (let i = 0; i < todos.length; i++) {   //deux for en 1
 			if (todos[i].id === id) {
 				todoId = todos[i].id;
 			}
-		}
-
-		for (let i = 0; i < todos.length; i++) {
 			if (todos[i].id === todoId) {
 				todos.splice(i, 1);
 			}
