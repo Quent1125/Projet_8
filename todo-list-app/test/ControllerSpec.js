@@ -62,6 +62,7 @@ describe('controller', function () {
 
 	it('should show entries on start-up', function () {
 		// TODO: write test
+
 	});
 
 	describe('routing', function () {
@@ -86,7 +87,7 @@ describe('controller', function () {
 
 		it('should show active entries', function () {
 			// Done
-			let todo = {title: 'my todo', completed: true}
+			let todo = {title: 'my todo', completed: false}
 			setUpModel([todo]);
 
 			subject.setView('#/active');
