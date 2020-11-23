@@ -61,7 +61,15 @@ describe('controller', function () {
 	});
 
 	it('should show entries on start-up', function () {
-		// TODO: write test
+		// done
+		let todo = {title : 'my todo'};
+		setUpModel([todo]);
+
+
+		subject.setView('');
+
+
+		expect(view.render).toHaveBeenCalledWith('showEntries', [todo]);
 
 	});
 
@@ -176,6 +184,7 @@ describe('controller', function () {
 	describe('toggle all', function () {
 		it('should toggle all todos to completed', function () {
 			// TODO: write test
+
 		});
 
 		it('should update the view', function () {
