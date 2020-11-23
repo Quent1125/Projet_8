@@ -55,7 +55,9 @@ describe('controller', function () {
 	beforeEach(function () {
 		model = jasmine.createSpyObj('model', ['read', 'getCount', 'remove', 'create', 'update']);
 		view = createViewStub();
-		subject = new app.Controller(model, view);
+		subject = new app.Controller(model, view)
+
+		console.log(model,view,subject)
 	});
 
 	it('should show entries on start-up', function () {
@@ -83,11 +85,24 @@ describe('controller', function () {
 		});
 
 		it('should show active entries', function () {
-			// TODO: write test
+			// Done
+			let todo = {title: 'my todo', completed: true}
+			setUpModel([todo]);
+
+			subject.setView('#/active');
+
+			expect(view.render).toHaveBeenCalledWith('showEntries', [todo])
+
 		});
 
 		it('should show completed entries', function () {
-			// TODO: write test
+			// Done
+			let todo = {title: 'my todo', completed: true}
+			setUpModel([todo]);
+
+			subject.setView('#/completed');
+
+			expect(view.render).toHaveBeenCalledWith('showEntries', [todo])
 		});
 	});
 
@@ -134,11 +149,27 @@ describe('controller', function () {
 	});
 
 	it('should highlight "All" filter by default', function () {
-		// TODO: write test
+		// done
+		subject.setView('#/');
+
+		expect(view.render).toHaveBeenCalledWith('setFilter','')
+
 	});
 
 	it('should highlight "Active" filter when switching to active view', function () {
-		// TODO: write test
+		// done
+		subject.setView('#/active');
+
+		expect(view.render).toHaveBeenCalledWith('setFilter','active')
+
+	});
+
+	it('should highlight "Completed" filter when switching to active view', function () {
+		// add
+		subject.setView('#/completed');
+
+		expect(view.render).toHaveBeenCalledWith('setFilter','completed')
+
 	});
 
 	describe('toggle all', function () {
