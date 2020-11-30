@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/test/ControllerSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/test/ControllerSpec.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +89,7 @@
       <workItem from="1606302546499" duration="21000" />
       <workItem from="1606302583366" duration="2185000" />
       <workItem from="1606409346721" duration="726000" />
+      <workItem from="1606731579191" duration="1274000" />
     </task>
     <servers />
   </component>

@@ -183,7 +183,18 @@ describe('controller', function () {
 
 	describe('toggle all', function () {
 		it('should toggle all todos to completed', function () {
-			// TODO: write test
+			var todo = [{id: 1, completed: false},
+				{id: 2, completed: true},{id: 3, completed: false}]
+			setUpModel(todo)
+
+			subject.setView('')
+
+			view.trigger('toggleAll', {completed: true})
+
+			todo.forEach(
+				x => expect(model.update).toHaveBeenCalledWith(x.id, {completed: true}, jasmine.any(Function))
+			)
+
 
 		});
 
