@@ -19,7 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="" />
+    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/test/ControllerSpec.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/test/ControllerSpec.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -89,6 +92,7 @@
       <workItem from="1606731579191" duration="1753000" />
       <workItem from="1606807959398" duration="585000" />
       <workItem from="1606839204059" duration="1380000" />
+      <workItem from="1606916365503" duration="1537000" />
     </task>
     <servers />
   </component>
