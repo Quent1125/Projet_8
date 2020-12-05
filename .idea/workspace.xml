@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/app.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/app.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/controller.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/controller.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_app.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_app.js_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.Controller.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.Model.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_store.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_store.js_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.Template.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_view.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_view.js_.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/model.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/model.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/store.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/store.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/styles/jsdoc-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/styles/jsdoc-default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/template.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/template.js.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/out/view.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/view.js.html" afterDir="false" />
-    </list>
+    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -112,7 +92,7 @@
       <workItem from="1606839204059" duration="1380000" />
       <workItem from="1606916365503" duration="1555000" />
       <workItem from="1607098757837" duration="1361000" />
-      <workItem from="1607173054638" duration="8934000" />
+      <workItem from="1607173054638" duration="9230000" />
     </task>
     <servers />
   </component>
