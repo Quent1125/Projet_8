@@ -364,6 +364,10 @@ tr > th:last-child { border-right: 1px solid #ddd; }
     width: 50%;
 }
 
+.readme ul{
+    list-style: none;
+}
+
 .readme{
     text-align: center;
 }
