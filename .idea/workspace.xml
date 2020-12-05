@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="" />
+    <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/todo-list-app/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -92,7 +94,7 @@
       <workItem from="1606839204059" duration="1380000" />
       <workItem from="1606916365503" duration="1555000" />
       <workItem from="1607098757837" duration="1361000" />
-      <workItem from="1607173054638" duration="4194000" />
+      <workItem from="1607173054638" duration="4389000" />
     </task>
     <servers />
   </component>
