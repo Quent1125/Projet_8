@@ -1,10 +1,13 @@
 /*global app, $on */
+/**
+ * @external "app.js"
+ */
 (function () {
 	'use strict';
 
 	/**
 	 * Sets up a brand new Todo list.
-	 *
+	 * @function external:"app.js".Todo
 	 * @param {string} name The name of your new to do list.
 	 */
 	function Todo(name) {
