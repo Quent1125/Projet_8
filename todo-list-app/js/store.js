@@ -84,7 +84,7 @@
 
 		// Generate an ID
 
-		const event = new Date();
+
 		let newId = Date.now()
 
 		// If an ID was actually given, find the item and update each property

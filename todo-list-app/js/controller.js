@@ -55,8 +55,7 @@
 	 * @param {string} locationHash  = '' | 'active' | 'completed'
 	 */
 	Controller.prototype.setView = function (locationHash) {
-		let route = locationHash.split('/')[1];
-		let page = route || '';
+		let page = locationHash.split('/')[1] || '';
 		this._updateFilterState(page);
 	};
 
@@ -111,8 +110,11 @@
 		});
 	};
 
-	/*
+
+	/**
 	 * Triggers the item editing mode.
+	 * @function external:"controller.js".editItem
+	 * @param id
 	 */
 	Controller.prototype.editItem = function (id) {
 		let self = this;
@@ -121,8 +123,12 @@
 		});
 	};
 
-	/*
+
+	/**
 	 * Finishes the item editing mode successfully.
+	 * @function external:"controller.js".editItemSave
+	 * @param id
+	 * @param title
 	 */
 	Controller.prototype.editItemSave = function (id, title) {
 		let self = this;
@@ -144,8 +150,11 @@
 		}
 	};
 
-	/*
+
+	/**
 	 * Cancels the item editing mode.
+	 * @function external:"controller.js".editItemCancel
+	 * @param id
 	 */
 	Controller.prototype.editItemCancel = function (id) {
 		let self = this;
@@ -164,18 +173,10 @@
 	 */
 	Controller.prototype.removeItem = function (id) {
 		let self = this;
-		self.model.read(function(data) {
-			data.forEach(function(item) {
-				if (item.id === id) {
-					console.log("Element with ID: " + id + " has been removed.");
-				}
-			});
-		});
-
-
 
 		self.model.remove(id, function () {
 			self.view.render('removeItem', id);
+			console.log("Element with ID: " + id + " has been removed.");
 		});
 
 		self._filter();
