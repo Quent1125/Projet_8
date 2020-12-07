@@ -20,8 +20,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todo-list-app/js/controller.js" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/js/controller.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/app.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/app.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/controller.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/controller.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_app.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_app.js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.Controller.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.Controller.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_controller.js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.Model.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.Model.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_model.js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_store.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_store.js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.Template.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.Template.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_template.js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/external-_view.js_.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/external-_view.js_.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/model.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/model.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/store.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/store.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/styles/jsdoc-default.css" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/styles/jsdoc-default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/template.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/template.js.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todo-list-app/out/view.js.html" beforeDir="false" afterPath="$PROJECT_DIR$/todo-list-app/out/view.js.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +114,7 @@
       <workItem from="1607192257895" duration="115000" />
       <workItem from="1607197278641" duration="3000" />
       <workItem from="1607205851013" duration="84000" />
-      <workItem from="1607325681434" duration="706000" />
+      <workItem from="1607325681434" duration="1170000" />
     </task>
     <servers />
   </component>

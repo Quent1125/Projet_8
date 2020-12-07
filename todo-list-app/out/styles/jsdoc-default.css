@@ -357,6 +357,7 @@ tr > th:last-child { border-right: 1px solid #ddd; }
     color: #454545;
 }
 
+
 /*Ajout pour fichier readme*/
 
 .readme img{
@@ -371,3 +372,6 @@ tr > th:last-child { border-right: 1px solid #ddd; }
 .readme{
     text-align: center;
 }
+
+
+
