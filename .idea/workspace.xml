@@ -21,7 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2d3f3dda-f8ee-4b7c-a7f6-7173ca02b065" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/audit.docx" beforeDir="false" afterPath="$PROJECT_DIR$/audit.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +43,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/go-fullstack" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -103,6 +102,8 @@
       <workItem from="1607343545555" duration="62000" />
       <workItem from="1607443535987" duration="236000" />
       <workItem from="1607521136054" duration="646000" />
+      <workItem from="1607618992117" duration="256000" />
+      <workItem from="1607619258328" duration="39000" />
     </task>
     <servers />
   </component>
@@ -138,10 +139,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="740" y="229" key="#com.intellij.ide.macro.MacrosDialog/-1920.0.1920.1050/0.0.1920.1050@0.0.1920.1050" timestamp="1604591542346" />
-    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1607343624080">
+    <state x="740" y="286" key="FileChooserDialogImpl" timestamp="1607619295148">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1050/-1920.4.1920.1080@0.0.1920.1050" timestamp="1607343624080" />
+    <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1050/-1920.4.1920.1080@0.0.1920.1050" timestamp="1607619295148" />
     <state x="2660" y="294" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605171035514" />
     <state x="740" y="286" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1606412003178" />
     <state width="1877" height="352" key="GridCell.Tab.0.bottom" timestamp="1605105335075">
